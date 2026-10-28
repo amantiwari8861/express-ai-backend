@@ -43,6 +43,11 @@ const ChatWithOpenAI: RequestHandler = async (req, res) => {
 
   res.send({ success: true, message: response.output_text });
 };
+
+
+
+
+
 import fs from "fs";
 const generateImageWithOpenAI: RequestHandler = async (req, res) => {
   try {
